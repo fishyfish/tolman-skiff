@@ -1,0 +1,81 @@
+body {
+  background: url(img/gulf-of-alaska.jpg) no-repeat;
+  background-size: cover;
+  margin:0;
+  padding:0;
+}
+
+.App {
+  background: rgba(255,255,255,.8);
+  box-shadow: 0px 0px 22px 11px rgba(0,0,0,0.25);
+  border:2px solid silver;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 75px auto;
+  padding: 25px;
+  position: relative;
+  text-align: left;
+}
+
+.App input {
+  border: 1px solid silver;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 100%;
+}
+
+button {
+  border:1px solid black;
+  background: red;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1{
+  margin:0;
+  padding:0;
+}
+
+#skiff {
+  background: url(img/skiff.png) no-repeat;
+  border:1px dashed orange;
+  height: 600px;
+  left:-408px;
+  position: absolute;
+  width: 800px;
+  z-index: -1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
